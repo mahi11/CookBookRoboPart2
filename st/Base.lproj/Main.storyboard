@@ -42,9 +42,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X4A-I3-eu1">
-                                <rect key="frame" x="40" y="314" width="240" height="128"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -56,7 +53,6 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="activityIndicator" destination="vVL-dY-tqY" id="Dwf-uW-Hyl"/>
-                        <outlet property="image" destination="X4A-I3-eu1" id="gG7-IM-x0v"/>
                         <outlet property="messageLabel" destination="oqG-3K-V0h" id="1aK-Rv-cRl"/>
                         <outlet property="recordButton" destination="5CT-ea-eXX" id="xCd-hz-mRb"/>
                         <outlet property="searchTextField" destination="aW7-2t-WZP" id="pVj-cf-Ogd"/>
