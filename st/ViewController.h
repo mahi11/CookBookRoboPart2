@@ -7,8 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import <SpeechKit/SpeechKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController < UITextFieldDelegate, SpeechKitDelegate, SKRecognizerDelegate >
+
+@property (strong, nonatomic) SKRecognizer* voiceSearch;
+
+@property (weak, nonatomic) IBOutlet UITextField *searchTextField;
+@property (weak, nonatomic) IBOutlet UIButton *recordButton;
+@property (weak, nonatomic) IBOutlet UILabel *messageLabel;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+- (IBAction)recordButtonTapped:(id)sender;
 
 
 @end

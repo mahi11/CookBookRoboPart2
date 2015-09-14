@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SpeechKit/SpeechKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -14,4 +15,3 @@
 
 
 @end
-
